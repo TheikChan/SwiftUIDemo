@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8F44807C2B15A9930041F564 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F44807B2B15A9930041F564 /* LoginView.swift */; };
+		8F44807E2B15A99D0041F564 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F44807D2B15A99D0041F564 /* LoginViewModel.swift */; };
 		8F83B9DB29EB842A00D65538 /* SwiftUIDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F83B9DA29EB842A00D65538 /* SwiftUIDemoApp.swift */; };
 		8F83B9DD29EB842A00D65538 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F83B9DC29EB842A00D65538 /* ContentView.swift */; };
 		8F83B9DF29EB842C00D65538 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F83B9DE29EB842C00D65538 /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8F44807B2B15A9930041F564 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		8F44807D2B15A99D0041F564 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		8F83B9D729EB842A00D65538 /* SwiftUIDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F83B9DA29EB842A00D65538 /* SwiftUIDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIDemoApp.swift; sourceTree = "<group>"; };
 		8F83B9DC29EB842A00D65538 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -57,6 +61,8 @@
 				8F83B9DE29EB842C00D65538 /* Assets.xcassets */,
 				8F83B9E029EB842C00D65538 /* SwiftUIDemo.entitlements */,
 				8F83B9E129EB842C00D65538 /* Preview Content */,
+				8F44807B2B15A9930041F564 /* LoginView.swift */,
+				8F44807D2B15A99D0041F564 /* LoginViewModel.swift */,
 			);
 			path = SwiftUIDemo;
 			sourceTree = "<group>";
@@ -139,6 +145,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F44807E2B15A99D0041F564 /* LoginViewModel.swift in Sources */,
+				8F44807C2B15A9930041F564 /* LoginView.swift in Sources */,
 				8F83B9DD29EB842A00D65538 /* ContentView.swift in Sources */,
 				8F83B9DB29EB842A00D65538 /* SwiftUIDemoApp.swift in Sources */,
 			);
@@ -265,7 +273,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIDemo/Preview Content\"";
-				DEVELOPMENT_TEAM = BQX27TXAM4;
+				DEVELOPMENT_TEAM = 9G733N2K2F;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -284,7 +292,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.3;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.theikchan.SwiftUIDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.theikchan.ios.SwiftUIDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
@@ -303,7 +311,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIDemo/Preview Content\"";
-				DEVELOPMENT_TEAM = BQX27TXAM4;
+				DEVELOPMENT_TEAM = 9G733N2K2F;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -322,7 +330,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.3;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.theikchan.SwiftUIDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.theikchan.ios.SwiftUIDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
